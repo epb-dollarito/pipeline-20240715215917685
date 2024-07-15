@@ -68,19 +68,19 @@ spec:
 
     - name: cpu
       description: the amount of vCPU set for each instance of the application or job
-      default: "0.25"
+      default: "2"
     - name: memory
       description: the amount of memory set for each instance of the application or job
-      default: "0.5G"
+      default: "4G"
     - name: ephemeral-storage
       description: the amount of ephemeral storage to set for each instance of the application or job
       default: "0.4G"
     - name: app-max-scale
       description: maximum scale of the Code Engine application
-      default: "1"
+      default: "10"
     - name: app-min-scale
       description: minimum scale of the Code Engine application
-      default: "0"
+      default: "2"
     - name: app-port
       description: port where the application is listening
       default: "8080"
