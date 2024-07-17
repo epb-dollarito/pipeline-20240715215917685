@@ -88,19 +88,19 @@ properties:
     value: ${CODE_ENGINE_PROJECT}
   - name: cpu
     type: text
-    value: "0.25"
+    value: "2"
   - name: app-max-scale
     type: text
-    value: "1"
+    value: "10"
   - name: memory
     type: text
-    value: "0.5G"
+    value: "4G"
   - name: ephemeral-storage
     type: text
     value: "0.4G"
   - name: app-min-scale
     type: text
-    value: "0"
+    value: "2"
   - name: app-port
     type: text
     value: "8080"
