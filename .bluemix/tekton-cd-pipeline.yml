@@ -75,7 +75,7 @@ properties:
     value: "0.4G"
   - name: app-min-scale
     type: text
-    value: "0"
+    value: "2"
   - name: app-port
     type: text
     value: "8080"
